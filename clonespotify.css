@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Cardo', serif;
+}
+
+.botaoprimario {
+    background: #108954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all 400ms ease;
+}
+
+.botaoprimario:hover {
+    background: #1ed760;
+    cursor: pointer;
+}
+
+#navbar {
+    display: flex;
+    background-color: rgb(0, 0, 0.6);
+    color: white;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+
+}
+
+.menucontainer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.menucontainer ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+.menucontainer ul li {
+    padding: 0 20px;
+    transition: all 400ms ease;
+}
+
+.menucontainer ul li:hover {
+    cursor: pointer;
+    color: #1db954;
+}
+
+.menuitens li:nth-child(3) {
+    border-right: 1px solid white;
+}
+
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    background: url(Ouvindo-musica-1200x450.png) center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+
+.showcasecontainer h1 {
+    font-size: 3rem;
+}
+
+.showcasecontainer p {
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+#footer {
+    background: black;
+    color: white;
+    padding: 40px 0;
+}
+
+#footer .footerconteudo {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+#footer .footerconteudo .footermenu {
+    margin: 0 40px;
+    list-style: none;
+}
+
+#footer .footerconteudo .footermenu .footermenuitem {
+    margin: 25px 0;
+    transition: all 400ms ease;
+}
+
+#footer .footerconteudo .footermenu .footermenuitem:hover {
+    cursor: pointer;
+    color: #919496;
+}
+
+#footer .footerconteudo .footermenu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+.sociais {
+    display: flex;
+}
+
+.sociais i {
+    margin: 0 20px;
+    font-size: 1.5rem;
+    transition: all 300ms ease;
+}
+
+.sociais i:hover {
+    cursor: pointer;
+    color: #108954;
+
+}
+
+.footerinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+    color: #919496;
+    font-size: 0.95rem;
+    padding-top: 50px;
+}
+
+.footerinfo .footerinfoitens .footerinfoitem:hover{
+    cursor: pointer;
+    color: #108954;
+}
+
+.footerinfo .footerinfoitens {
+    display: flex;
+    list-style: none;
+}
+.footerinfo .footerinfoitens .footerinfoitem{
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.footerinfo .direitos .pais {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.footerinfo .direitos .pais .brasilflag {
+    height: 40px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
